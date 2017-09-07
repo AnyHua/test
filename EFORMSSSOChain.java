@@ -9,7 +9,7 @@ public class EFORMSSSOChain
   private int currentPosition = 0;
 
   protected EFORMSSSOChain(EFORMSSSOContext context) {
-    this.context = context;1231231233123
+    this.context = context;
   }
 
   public void doNextFilter() throws IOException, ServletException {
@@ -21,7 +21,7 @@ public class EFORMSSSOChain
       EFORMSSSOUserData.getInstance().setCurrentUsername(
         this.context.getCurrentUsername());
   }
-
+1231231233123
   public boolean isFinish()
   {
     return this.currentPosition > EFORMSSSOClient.processingFilters.length;
