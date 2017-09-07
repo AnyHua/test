@@ -9,7 +9,7 @@ public class EFORMSSSOChain
   private int currentPosition = 0;
 
   protected EFORMSSSOChain(EFORMSSSOContext context) {
-    this.context = context;
+    this.context = context;1231231233123
   }
 
   public void doNextFilter() throws IOException, ServletException {
